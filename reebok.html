@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reebok</title>
+    <link rel="stylesheet" href="reebok.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="top">
+        <a href="#">Free Delivery on purchase above AED 250</a>
+      </div>
+      <div class="information">
+        <div class="info">return & refund</div>
+        <div class="info">newsletter signup</div>
+        <div class="info">login</div>
+        <div class="flags info">
+          <!-- <select name="" id="">
+            <option value="">
+              <img src="flag-icon1.svg" class="icons" alt="" />
+            </option>
+            <option value="">
+              <img src="flag-icon2.svg" class="icons" alt="" />
+            </option>
+            <option value=""></option>
+            <option value=""></option>
+          </select> -->
+          <div class="country_flag">
+            <figure>
+              <img src="images/flags/flag-icon1.svg" alt="" />
+            </figure>
+            <div class="arrow_down">
+              <figure>
+                <img src="./arrow-down-svgrepo-com (1).png" alt="" />
+              </figure>
+            </div>
+          </div>
+          <ul class="country_flag_list">
+            <li>
+              <figure>
+                <img src="images/flags/flag-icon2.svg" alt="" />
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="images/flags/flag-icon3.svg" alt="" />
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="images/flags/flag-icon4.svg" alt="" />
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="items">
+          <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick=""></i>
+          </div>
+          <div class="cross-icon">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          </div>
+          <!--<div class="menu-icon-list">
+            <ul>
+              <li>Mohan</li>
+              <li>Reddy</li>
+              <li>Annavarapu</li>
+            </ul>
+          </div>-->
+          <div class="logo">
+            <a href="#"
+              ><img
+                src="images/menu_bar_images/reebok-logo.webp"
+                alt=""
+                class="reebok-logo"
+              />
+            </a>
+          </div>
+          <div class="list-items">
+            <span
+              ><a href="#">NEW ARRIVALS</a>
+              <p>
+                <img
+                  src="./arrow-down-svgrepo-com (1).png"
+                  alt=""
+                  class="list-items-arrow"
+                /></p
+            ></span>
+
+            <div class="line"></div>
+            <span
+              ><a href="#">MEN</a>
+              <p>
+                <img
+                  src="./arrow-down-svgrepo-com (1).png"
+                  alt=""
+                  class="list-items-arrow"
+                />
+              </p>
+              <div class="line"></div>
+              <ul>
+                <li>
+                  <h5 class="headings">
+                    FEATURED
+
+                    <img
+                      src="./arrow-down-svgrepo-com (1).png"
+                      alt=""
+                      class="inner-list-items-arrow"
+                    />
+                  </h5>
+
+                  <ul class="men-items-list">
+                    <li><a href="">BB 4000</a></li>
+                    <li><a href="">NANO X3</a></li>
+                    <li><a href="">NANO</a></li>
+                    <li><a href="">CLASSIC LEATHER</a></li>
+                    <li><a href="">CLUB C</a></li>
+                    <li><a href="">ZIG KINETICA</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h5 class="headings">
+                    SHOES
+                    <img
+                      src="./arrow-down-svgrepo-com (1).png"
+                      alt=""
+                      class="inner-list-items-arrow"
+                    />
+                  </h5>
+                  <ul class="men-items-list">
+                    <li><a href="">TENNIS</a></li>
+                    <li><a href="">RUNNING</a></li>
+                    <li><a href="">SWIMMING</a></li>
+                    <li><a href="">SLIDE</a></li>
+                    <li><a href="">WALKING</a></li>
+                    <li><a href="">BASKETBALL</a></li>
+                    <li><a href="">TRAINING</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h5 class="headings">
+                    CLOTHING
+                    <img
+                      src="./arrow-down-svgrepo-com (1).png"
+                      alt=""
+                      class="inner-list-items-arrow"
+                    />
+                  </h5>
+                  <ul class="men-items-list">
+                    <li><a href="">POLO SHIRTS</a></li>
+                    <li><a href="">T-SHIRTS</a></li>
+                    <li><a href="">SWEATSHIRTS</a></li>
+                    <li><a href="">POLARFLEECE</a></li>
+                    <li><a href="">JACKETS</a></li>
+                    <li><a href="">SHORTS</a></li>
+                    <li><a href="">PANTS</a></li>
+                    <li><a href="">TOPS</a></li>
+                    <li><a href="">SHIRTS</a></li>
+                    <li><a href="">TRACK TOPS</a></li>
+                    <li><a href="">TIGHTS</a></li>
+                    <li><a href="">BAGS</a></li>
+                    <li><a href="">SOCKS</a></li>
+                    <li><a href="">TOP</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h5 class="headings">
+                    ACCESSORIES
+                    <img
+                      src="./arrow-down-svgrepo-com (1).png"
+                      alt=""
+                      class="inner-list-items-arrow"
+                    />
+                  </h5>
+                  <ul class="men-items-list">
+                    <li><a href="">BAGS</a></li>
+                    <li><a href="">GLOVES</a></li>
+                    <li><a href="">BOTTELS</a></li>
+                    <li><a href="">CAPS</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h5 class="headings">
+                    COLLECTIONS
+                    <img
+                      src="./arrow-down-svgrepo-com (1).png"
+                      alt=""
+                      class="inner-list-items-arrow"
+                    />
+                  </h5>
+                  <ul class="men-items-list">
+                    <li><a href="">RUNNING</a></li>
+                    <li><a href="">TRAINING</a></li>
+                    <li><a href="">BASKETBALL</a></li>
+                    <li><a href="">TENNISS</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h5 class="headings">
+                    SPORTS
+                    <img
+                      src="./arrow-down-svgrepo-com (1).png"
+                      alt=""
+                      class="inner-list-items-arrow"
+                    />
+                  </h5>
+                  <ul class="men-items-list">
+                    <li><a href="">TRAINING</a></li>
+                    <li><a href="">RUNNING</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </span>
+            <span
+              ><a href="#">WOMEN</a>
+              <p>
+                <img
+                  src="./arrow-down-svgrepo-com (1).png"
+                  alt=""
+                  class="list-items-arrow"
+                />
+              </p>
+              <div class="line"></div>
+              <ul>
+                <li>
+                  <h5 class="headings">ACCESSORIES</h5>
+                  <ul class="men-items-list">
+                    <li><a href="">HEADWEAR</a></li>
+                    <li><a href="">GLOVES</a></li>
+                    <li><a href="">CAPS</a></li>
+                    <li><a href="">TOWEL</a></li>
+                    <li><a href="">CLUB C</a></li>
+                    <li><a href="">ZIG KINETICA</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h5 class="headings">FEATURED</h5>
+                  <ul class="men-items-list">
+                    <li><a href="">BB 4000</a></li>
+                    <li><a href="">NANO X3</a></li>
+                    <li><a href="">NANO</a></li>
+                    <li><a href="">CLASSIC LEATHER</a></li>
+                    <li><a href="">CLUB C</a></li>
+                    <li><a href="">ZIG DYNAMICA</a></li>
+                    <li><a href="">ZIG KINETICA</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h5 class="headings">SHOES</h5>
+                  <ul class="men-items-list">
+                    <li><a href="">RUNNING</a></li>
+                    <li><a href="">SWIMMING</a></li>
+                    <li><a href="">SLIDE</a></li>
+                    <li><a href="">TENNIS</a></li>
+                    <li><a href="">WALKING</a></li>
+                    <li><a href="">TRAINING</a></li>
+                    <li><a href="">CASUAL</a></li>
+                    <li><a href="">BASKETBALL</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h5 class="headings">CLOTHING</h5>
+                  <ul class="men-items-list">
+                    <li><a href="">TIGHTS</a></li>
+                    <li><a href="">T-SHIRTS</a></li>
+                    <li><a href="">SWEATSHIRTS</a></li>
+                    <li><a href="">SHORTS</a></li>
+                    <li><a href="">SKIRTS</a></li>
+                    <li><a href="">TOPS</a></li>
+                    <li><a href="">POLO SHIRTS</a></li>
+                    <li><a href="">SHIRTS</a></li>
+                    <li><a href="">PANTS</a></li>
+                    <li><a href="">SPORTS BRA</a></li>
+                    <li><a href="">TRACK TOPS</a></li>
+                    <li><a href="">JACKETS</a></li>
+                    <li><a href="">SOCKS</a></li>
+                    <li><a href="">T-SHIRT</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h5 class="headings">COLLECTIONS</h5>
+                  <ul class="men-items-list">
+                    <li><a href="">RUNNING</a></li>
+                    <li><a href="">TRAINING</a></li>
+                    <li><a href="">TENNISS</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h5 class="headings">SPORTS</h5>
+                  <ul class="men-items-list">
+                    <li><a href="">TRAINING</a></li>
+                    <li><a href="">RUNNING</a></li>
+                    <li><a href="">CASUAL</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </span>
+            <span
+              ><a href="#">KIDS</a>
+              <p>
+                <img
+                  src="./arrow-down-svgrepo-com (1).png"
+                  alt=""
+                  class="list-items-arrow"
+                />
+              </p>
+              <div class="line"></div>
+              <ul>
+                <li>
+                  <h5 class="headings">FEATURED</h5>
+                  <ul class="men-items-list">
+                    <li><a href="">CLUB C</a></li>
+                    <li><a href="">ALL KIDS</a></li>
+                    <li><a href="">ZIG DYNAMICA</a></li>
+                    <li><a href="">CLASSIC LEATHER</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h5 class="headings">BABIES (0-4YRS)</h5>
+                  <ul class="men-items-list">
+                    <li><a href="">BABY SHOES</a></li>
+                    <li><a href="">GIRL SHOES</a></li>
+                    <li><a href="">BOY SHOES</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h5 class="headings">KIDS (5-8YRS)</h5>
+                  <ul class="men-items-list">
+                    <li><a href="">GIRL SHOES</a></li>
+                    <li><a href="">BOY SHOES</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h5>YOUTH (9-14YRS)</h5>
+                  <ul class="men-items-list">
+                    <li><a href="">GIRL SHOES</a></li>
+                    <li><a href="">BOY SHOES</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h5 class="headings">COLLECTIONS</h5>
+                  <ul class="men-items-list">
+                    <li><a href="">RUNNING</a></li>
+                    <li><a href="">TRAINING</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h5 class="headings">UNISEX</h5>
+                  <ul class="men-items-list">
+                    <li><a href="">ACCESSORIES</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </span>
+            <span
+              ><a href="#">SPORTS</a>
+              <p>
+                <img
+                  src="./arrow-down-svgrepo-com (1).png"
+                  alt=""
+                  class="list-items-arrow"
+                />
+              </p>
+              <div class="line"></div>
+              <ul>
+                <li>
+                  <h5 class="headings">RUNNING</h5>
+                  <ul class="men-items-list">
+                    <li><a href="">SHOES</a></li>
+                    <li><a href="">APPAREL</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h5 class="headings">TRAINING</h5>
+                  <ul class="men-items-list">
+                    <li><a href="">CLOTHING</a></li>
+                    <li><a href="">ACCESSORIES</a></li>
+                    <li><a href="">SHOES</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h5 class="headings">TENNIS</h5>
+                  <ul class="men-items-list">
+                    <li><a href="">SHOES</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </span>
+            <span>
+              <a href="#" class="deal">PAYDAY DEAL</a>
+              <p>
+                <img
+                  src="./arrow-down-svgrepo-com (1).png"
+                  alt=""
+                  class="list-items-arrow"
+                />
+              </p>
+              <div class="line"></div>
+              <ul>
+                <li>
+                  <h5 class="headings">WOMEN</h5>
+                  <ul class="men-items-list">
+                    <li><a href="">SHOES</a></li>
+                    <li><a href="">CLOTHING</a></li>
+                    <li><a href="">ACCESSORIES</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h5 class="headings">MEN</h5>
+                  <ul class="men-items-list">
+                    <li><a href="">SHOES</a></li>
+                    <li><a href="">CLOTHING</a></li>
+                    <li><a href="">ACCESSORIES</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </span>
+          </div>
+          <div class="search-cart-info">
+            <ul>
+              <li>
+                <input type="text" placeholder="Search" />
+                <i
+                  class="fa-solid fa-magnifying-glass"
+                  placeholder="Search"
+                ></i>
+              </li>
+
+              <li>
+                <i class="fa-regular fa-heart whishlist" title="whishlist"> </i>
+              </li>
+              <li><i class="fa-solid fa-bag-shopping whishlist"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="hero-image">
+        <button class="shop">Shop Now</button>
+      </div>
+      <div class="famous"><h2>POPULAR RIGHT NOW</h2></div>
+      <div class="sub-menu">
+        <div class="sub-list">
+          <a href="#">Nano</a>
+          <a href="#">Club C</a>
+          <a href="#">BB 4000</a>
+          <a href="#">Zig Kinetica</a>
+          <a href="#">Classic Leather</a>
+        </div>
+      </div>
+      <div class="image-grid">
+        <div class="image1 images">
+          <span>WOMEN</span>
+        </div>
+        <div class="image2 images">
+          <span>MEN</span>
+        </div>
+        <div class="image3 images">
+          <span>KIDS</span>
+        </div>
+      </div>
+      <div class="arrivals">
+        <h1>NEW ARRIVALS</h1>
+        <div><a href="#">VIEW ALL</a></div>
+      </div>
+      <div class="new-arrivals">
+        <div class="shoe-container">
+          <div class="card">
+            <div class="image">
+              <img src="images/shoes/shoe1.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">Glide Unisex Shoes</p>
+            <p class="item-style">Running</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/shoes/shoe2.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">Energen Lux Men's Sneakers</p>
+            <p class="item-style">Running</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/shoes/shoe3.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">Energen Run 3 Men's Shoes</p>
+            <p class="item-style">Running</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/shoes/shoe4.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">Royal Bb4500 Hi2 Men's Shoes</p>
+            <p class="item-style">Basketball</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/shoes/shoe5.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">Glide Women's Shoes</p>
+            <p class="item-style">Running</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/shoes/shoe6.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">Zig Dynamica 4 Women's Shoes</p>
+            <p class="item-style">Running</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/shoes/shoe7.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">Zig Dynamica 4 Women's Shoes</p>
+            <p class="item-style">Running</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/shoes/shoe8.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">Zig Dynamica 4 Unisex Shoes</p>
+            <p class="item-style">Running</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/shoes/shoe9.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">Zig Dynamica 4 Unisex Shoes</p>
+            <p class="item-style">Running</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/shoes/shoe10.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">Flexagon Force 4 Women's Shoes</p>
+            <p class="item-style">Training</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/shoes/shoe11.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">Flexagon Force 4 Women's Shoes</p>
+            <p class="item-style">Training</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/shoes/shoe12.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">Flexagon Force 4 Women's Shoes</p>
+            <p class="item-style">Training</p>
+          </div>
+        </div>
+      </div>
+      <div class="nanox3"></div>
+      <div class="like">
+        <h2>YOU MAY ALSO LIKE</h2>
+      </div>
+      <div class="new-arrivals">
+        <div class="shoe-container">
+          <div class="card">
+            <div class="image">
+              <img src="images/new_arrivals/sweatshirt.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">
+              Classics Sporting Goods Crew Unisex Sweatshirt
+            </p>
+            <p class="item-style">Sweatshirt</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/new_arrivals/jersey.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">Classic Baseball Unisex Jersey Top</p>
+            <p class="item-style">Top</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/new_arrivals/shorts.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">Speed 3.0 Men's Shorts</p>
+            <p class="item-style">Training</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/new_arrivals/shoe13.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">BB 4000 || Unisex Shoes</p>
+            <p class="item-style">Basketball</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/new_arrivals/shoe14.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">BB 4000 || Mid Casual Unisex Shoes</p>
+            <p class="item-style">Basketball</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/new_arrivals/shoe15.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">Classic Club C Revenge Men's Shoes</p>
+            <p class="item-style">Tennis</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/new_arrivals/shoe16.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">LT Court Unisex Shoes</p>
+            <p class="item-style">Tennis</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/new_arrivals/shoe17.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">Club C 85 Unisex Shoes</p>
+            <p class="item-style">Tennis</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/new_arrivals/shoe18.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">Glide Unisex Shoes</p>
+            <p class="item-style">Running</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/new_arrivals/shoe19.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">Energen Lux Men's Sneakers</p>
+            <p class="item-style">Running</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/new_arrivals/shoe20.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">Energen Run 3 Men's Shoes</p>
+            <p class="item-style">Running</p>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="images/new_arrivals/shoe21.webp" alt="" />
+              <span>AED 329.00</span>
+            </div>
+            <p class="item-name">Royal Bb4500 Hi2 Men's Shoes</p>
+            <p class="item-style">Basketball</p>
+          </div>
+        </div>
+      </div>
+      <div class="sportswear-info">
+        <div class="info1">
+          <h5>SMASHING IT WITH REEBOK SPORTSWEAR</h5>
+          <p>
+            Once you find a sport you love, it all makes sense. In a hectic
+            world, gift yourself the time you need to free your mind and let
+            your body move. Don’t hesitate to get out there, you know it’ll be
+            worth it. Whether it’s a jog in the rain or yoga in your lunchbreak,
+            stick with it and you’ll feel on top of the world each time. When
+            life’s busy or you don’t feel like it – take charge, and move with
+            conviction. It’ll feel even better when you rise to meet the
+            challenge. You can make it social by teaming up with a friend and
+            training with a buddy. Feel good, feel great! Well fitting,
+            beautifully designed sports clothing that’s a pleasure to wear plays
+            a huge part in getting you out there to live your best life. Follow
+            your passion in comfortable, specialist sportswear from Reebok that
+            will boost your motivation and enhance your performance.
+          </p>
+        </div>
+        <div class="info2">
+          <h5>SPORT SHOP SHOWCASING EPIC REEBOK CHOICE</h5>
+          <p>
+            Whatever your thing – dance, cross training, boxing, running or the
+            gym – you’ll find Reebok sports gear in our online sport shop that
+            will trigger your enthusiasm. All our workout clothes offer
+            thoughtful design, elevated fabrics and comfort to power you through
+            your sessions looking and feeling your best. Packed with useful
+            design features to keep you free from distraction, we pride
+            ourselves on the choice we offer across sports with dedicated ranges
+            and stylish collections for adults and children. From ventilated,
+            technically designed gear for high intensity workouts to stylish and
+            comfy cool-down looks that are fashionable enough to hang out in all
+            day, we’ve got it covered with a huge range of sizes and styles.
+            Check out our outstanding range of trainers offering colourful style
+            alongside collaborations with designers and sportspeople as well as
+            classic Reebok retro looks. Proud of our British heritage, Reebok
+            clothes are built for the long-haul and are designed to accompany
+            you on your sports journey.
+          </p>
+        </div>
+      </div>
+      <div class="signup-newsletter">
+        <div class="offer">
+          PAIR UP WITH US AND GET <br />
+          15% 0FF
+        </div>
+        <div class="signup-newsbutton">
+          <button>
+            Sign up for newsletter
+            <span><i class="fa-solid fa-arrow-right"></i></span>
+          </button>
+        </div>
+      </div>
+      <div class="main-last">
+        <ul class="contents-list">
+          <li><h5>PRODUCTS</h5></li>
+          <li><a href="">Women's Tights</a></li>
+          <li><a href="">Women's Tops</a></li>
+          <li><a href="">Women's Running Shoes</a></li>
+          <li><a href="">Women's Training Shoes</a></li>
+          <li><a href="">Men's Tshirts</a></li>
+          <li><a href="">Men's Pants</a></li>
+        </ul>
+        <ul class="contents-list">
+          <li><h5>SPORTS</h5></li>
+          <li><a href="">Women's Running Shoes</a></li>
+          <li><a href="">Women's Training Shoes</a></li>
+          <li><a href="">Men's Running Shoes</a></li>
+          <li><a href="">Men's Training Shoes</a></li>
+          <li><a href="">Men's Basketball Shoes</a></li>
+          <li><a href="">Women's gym trainers</a></li>
+        </ul>
+        <ul class="contents-list">
+          <li><h5>COLLECTIONS</h5></li>
+          <li><a href="">Nano</a></li>
+          <li><a href="">Club C</a></li>
+          <li><a href="">Classic Leather</a></li>
+          <li><a href="">Zig Kinetica</a></li>
+          <li><a href="">Women's BB 4000</a></li>
+          <li><a href="">Men's BB 4000</a></li>
+        </ul>
+        <ul class="contents-list">
+          <li><h5>SUPPORT</h5></li>
+          <li><a href="">Store Locator</a></li>
+          <li><a href="">Returns and Refunds</a></li>
+          <li><a href="">Shipping</a></li>
+          <li><a href="">Buy 1 Get 1 Free</a></li>
+        </ul>
+        <ul class="contents-list">
+          <li><h5>FOLLOW US</h5></li>
+          <li>
+            <a href=""><img src="images/icons/fb-icon.jpg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/icons/insta-icon.jpg" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="query-content">
+        <ul>
+          <li><a href="">Returns & Exchanges</a></li>
+          <li><a href="">Order Track</a></li>
+        </ul>
+        <ul>
+          <li class="shipping"><a href="">Shipping</a></li>
+        </ul>
+      </div>
+      <div class="country-flag-name">
+        <div class="flag">
+          <img src="flag-icon1.svg" alt="" />
+        </div>
+        <div class="flag-name">India</div>
+      </div>
+      <div class="line"></div>
+    </div>
+    <div class="footer">
+      <div class="privacy-details">
+        <a href="">Privacy Notice</a><span>|</span>
+        <a href="">Terms & Conditions</a><span>|</span>
+        <a href="">Sitemap</a>
+      </div>
+      <div class="location">
+        Seller: Evolution RBK Athleisure LLC, Dubai UAE | Operator of the
+        website and Copyright:2023 Evolution RBK Athleisure LLC.
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="rebook.js"></script>
+  </body>
+</html>
